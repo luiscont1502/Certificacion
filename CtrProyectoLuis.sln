@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtrProyectoLuis", "CtrProye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEUcrtProyectoLuis", "BEUcrtProyectoLuis\BEUcrtProyectoLuis.csproj", "{C039FD23-D9FF-4A6A-A45C-9F6AB770AFBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiPortBelly", "WebApiPortBelly\WebApiPortBelly.csproj", "{57A47CA6-533B-4681-9615-F1AB65FAFE38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C039FD23-D9FF-4A6A-A45C-9F6AB770AFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C039FD23-D9FF-4A6A-A45C-9F6AB770AFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C039FD23-D9FF-4A6A-A45C-9F6AB770AFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A47CA6-533B-4681-9615-F1AB65FAFE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A47CA6-533B-4681-9615-F1AB65FAFE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A47CA6-533B-4681-9615-F1AB65FAFE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A47CA6-533B-4681-9615-F1AB65FAFE38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

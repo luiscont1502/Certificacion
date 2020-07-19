@@ -25,5 +25,18 @@ namespace BEUcrtProyectoLuis.Queris
                 throw;
             }
         }
+        public void SubirArchivo(string ruta, HttpPostedFile file)
+        {
+            try
+            {
+                file.SaveAs(ruta);
+                this.confirmacion = "Imagen Guardada";
+            }
+            catch (Exception ex)
+            {
+                this.error = ex;
+                throw;
+            }
+        }
     }
 }
